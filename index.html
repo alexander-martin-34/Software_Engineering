@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../games.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      
+  </head>
+
+  <body background = "/assets/table.png">
+    <ul>
+      <li><a class="active" href="../home.html">Home</a></li>
+      <li><a href="#othergames">Other Games</a></li>
+      <li><a>Welcome to Simplified Craps!</a></li>
+    </ul>
+    <div class="header">   
+
+    </div>
+    <center>
+        <img src="../assets/dice/dieWhite1.png">
+        <img class="logo" src="../Logo_Only.png" height="184" width="155" align="middle">
+        <img src="../assets/dice/dieWhite6.png">
+        <br>
+    <button id="new-game-button">New Game!</button>
+    <button id="roll-button">Roll!</button>
+    <button onclick = "alert('Rules: Instead of having a lot of complicated bets, Simplified Craps has pretty basic betting system. \n\nTo win a bet you have to roll a particular winning number.\nFor instance, if you roll a 2, 3, 4, 10, 11 or 12, you win. \nIf you throw a 5, 6, 7, 8 or 9, you lose. \nPayouts are determined according to the specific winning number rolled. A 2 pays 3:1, a 3 or 4 pays 1:1 or even money, \na 10 or 11 pays 2:1, while a 12 pays the highest or 5:1.')">How to Play</button>
+    <br>
+    <br>
+    <div class="game_area" id ="roll_1" width=200 height=200 style="display:inline"></div>
+    <div class="game_area" id ="roll_2" width=200 height=200 style="display:inline"></div>
+    <p id="text-area">Welcome to Boko's Casino!</p>
+    <script src="craps.js"></script>
+  </center>
+  </body>
+
+</html>
